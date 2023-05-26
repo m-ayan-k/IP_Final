@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gamez</title>
+    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="text">
+          <h1>G</h1>race <h1>A</h1>nd <h1>M</h1>ercy <h1>E</h1>ternally<h1>Z</h1>eal
+        
+        </div>
+      </div>
+      <div class="right">
+        <div class="gallery">
+          <div
+            class="box col-2"
+            style="
+              background-image: url(https://saarthak-arora.github.io/Rportfolio/static/media/PuzzleGame.e323d8e824756a715d34.png);
+              opacity: 0.5;
+            "
+            onmouseover="soundE()"
+          >
+            VideoCam Puzzle
+            <a href="https://saarthak-arora.github.io/VideoCamPuzzleGame/" target="_blank"><img src="images/play.png" /></a>
+          </div>
+          <div
+            class="box row-3"
+            style="background-image: url(images/KundanGame.png)"
+             onmouseover="soundE()"
+          >
+            SpaceShooter
+            <a href="https://kundan29-cyber.github.io/space.github.io/" target="_blank"><img src="images/play.png" /></a>
+          </div>
+          <div
+            class="box row-2"
+            style="
+              background-image: url(images/MayankGame.png);
+            "
+             onmouseover="soundE()"
+          >
+            Judo Fights
+            <a href="https://m-ayan-k.github.io/IP_Project/" target="_blank"><img src="images/play.png" /></a>
+          </div>
+
+          <div class="logo">
+            <video
+              width="200"
+              height="200"
+              autoplay
+              muted
+              loop
+              style="border-radius: 50%"
+            >
+              <source src="images/Gamez.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <!-- <img class="box col-1" src="images/arrawsKey.png"/> -->
+          <div
+            class="box col-3 row-2"
+            style="
+              background-image: url(https://user-images.githubusercontent.com/92729800/204914433-211b768c-1a43-4142-a266-2078248990f1.png);
+            "
+             onmouseover="soundE()"
+          >
+            Cyberpunk Seahorse <a href="https://saranggakhar.github.io/GameZ/" target="_blank"><img src="images/play.png" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+
+let SOUND=new Audio('images/swooshSound.mp3');
+SOUND.volume=0.2;
+    var soundE = () =>{
+      SOUND.play();
+    }
+  </script>
+</html>
